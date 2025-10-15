@@ -1,4 +1,4 @@
-package immutable;
+package immutable.address;
 
 public class Address {
     private String value;

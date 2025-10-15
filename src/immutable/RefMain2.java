@@ -1,5 +1,7 @@
 package immutable;
 
+import immutable.address.Address;
+
 public class RefMain2 {
     public static void main(String[] args) {
         Address a = new Address("Jakarta");

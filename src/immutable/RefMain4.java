@@ -1,15 +1,13 @@
 package immutable;
 
-import immutable.address.Address;
-
-public class RefMain1 {
+public class RefMain4 {
     public static void main(String[] args) {
-        Address a = new Address("Jakarta");
-        Address b = a;
+        ImmutableAddress a = new ImmutableAddress("Jakarta");
+        ImmutableAddress b = a;
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        b.setValue("Bali");
+        b = new ImmutableAddress("Bali");
         System.out.println("Bali -> b");
         System.out.println("a = " + a);
         System.out.println("b = " + b);
